@@ -35,7 +35,7 @@ execstack -c libcrypto.so.1.0.0
 
 this is not working:  conda install -c msys2 m2w64-toolchain 
 
-## start jupter in WSL
+## start jupter in LSW
 
 export MKL_THREADING_LAYER=GNU
 

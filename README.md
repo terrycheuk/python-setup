@@ -17,13 +17,13 @@ export MKL_THREADING_LAYER=GNU
 jupyter notebook
 
 
-## Windows PC / LSW
+## Windows 10 / Linux Subsystem on Windows
 
 https://www.anaconda.com/downloads
 
 install anaconda 2.7 or 3.x
 
-#fix the openssl issue
+### fix the openssl issue
 
 sudo apt install execstack
 
@@ -31,10 +31,11 @@ cd ~/anaconda3/lib
 
 execstack -c libcrypto.so.1.0.0
 
+## w2m64-toolchain not working
 
-conda install -c conda-forge pymc3
+this is not working:  conda install -c msys2 m2w64-toolchain 
 
-pip install patsy pandas
+## start jupter in WSL
 
 export MKL_THREADING_LAYER=GNU
 

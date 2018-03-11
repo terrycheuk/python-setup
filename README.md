@@ -31,12 +31,16 @@ cd ~/anaconda3/lib
 
 execstack -c libcrypto.so.1.0.0
 
-## w2m64-toolchain not working
+### install compiler
 
-this is not working:  conda install -c msys2 m2w64-toolchain 
+sudo apt update
 
-## start jupter in LSW
+sudo apt install build-essential
+
+### add environment variable to .bashrc
 
 export MKL_THREADING_LAYER=GNU
+
+### start jupter in LSW
 
 jupyter notebook

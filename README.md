@@ -31,6 +31,8 @@ cd ~/anaconda3/lib
 
 execstack -c libcrypto.so.1.0.0
 
+conda install pymc3 pandas patsy
+
 ### install compiler
 
 sudo apt update
